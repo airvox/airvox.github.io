@@ -1,0 +1,51 @@
+---
+layout: page
+---
+
+<div class="headline-bg about-headline-bg">
+  <!-- photo by Davide D'Amico https://www.flickr.com/photos/davidedamico/16011415466/ -->
+</div><!--//headline-bg-->
+
+<!-- ******Video Section****** -->
+<section class="story-section section section-on-bg">
+    <h2 class="title container text-center">Terms Of Service</h2>
+    <div class="story-container container text-center">
+        <div class="story-container-inner" >
+            <div class="about">
+                <p>Airvox grew out of the belief that organisations can and should be in control of there own technology direction, and that by doing so they could get more out of their IT investments.</p>
+                <blockquote class="belief">Our mission is to make the best of technology available to those who have often been in most need, especially education, small to medium business and charitable institutions</blockquote>
+            </div><!--//about-->
+            <div class="team row">
+                <h3 class="title">Meet the team</h3>
+                {% for person in site.data.people %}
+                <div class="member col-md-4 col-sm-6 col-xs-12">
+                    <div class="member-inner">
+                        <figure class="profile">
+                            <img class="img-responsive" src="{{site.baseurl}}/assets/images/team/{{person.img}}" alt=""/>
+                            <figcaption class="info">
+                                <span class="name">{{person.name}}</span>
+                                <br />
+                                <span class="job-title">{{person.institution}}</span>
+
+                            </figcaption>
+                        </figure><!--//profile-->
+                        <div class="social">
+                            <ul class="social-list list-inline">
+                              {% if person.linkedin != null %}
+                                <li><a href="{{person.linkedin}}"><i class="fa fa-linkedin"></i></a></li>
+                              {% endif %}
+                              {% if person.twitter != null %}
+                                <li><a href="{{person.twitter}}"><i class="fa fa-twitter"></i></a></li>
+                              {% endif %}
+                              {% if person.www != null %}
+                                <li><a href="{{person.www}}"><i class="fa fa-external-link"></i></a></li>
+                              {% endif %}
+                            </ul><!--//social-list-->
+                        </div><!--//social-->
+                    </div><!--//member-inner-->
+                </div><!--//member-->
+                {% endfor %}
+            </div><!--//team-->
+        </div><!--//story-container-->
+    </div><!--//container-->
+</section><!--//story-video-->
