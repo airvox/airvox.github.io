@@ -27,6 +27,6 @@
     - subtitle: "Help"
       subhref: "//support.airvox.it"
     - subtitle: "Terms of Service"
-      subhref: "/support/"
+      subhref: "/tos/"
     - subtitle: "Privacy"
-      subhref: "/support/"
+      subhref: "/legal/"
