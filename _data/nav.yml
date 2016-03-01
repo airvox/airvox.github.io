@@ -26,7 +26,3 @@
   subcategories:
     - subtitle: "Help"
       subhref: "//support.airvox.it"
-    - subtitle: "Terms of Service"
-      subhref: "/tos/"
-    - subtitle: "Privacy"
-      subhref: "/legal/"
