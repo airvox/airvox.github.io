@@ -22,7 +22,4 @@
       subhref: "/product/"
 
 - title: "Support"
-  href: "/support/"
-  subcategories:
-    - subtitle: "Help"
-      subhref: "//support.airvox.it"
+  href: "///support.airvox.it"
