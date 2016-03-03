@@ -1,16 +1,16 @@
 - name: Jonathan Peace
   img: jep.jpg
   institution:
-  linkedin: https://uk.linkedin.com/in/jetpax
-  twitter: https://twitter.com/airvox
+  linkedin: https://uk.linkedin.com/in/airvox
+  twitter: https://twitter.com/airvoxit
   www: http://airvox.it
-- name: Tom Peace
+- name: Tom Williams
   img: member-4.png
   institution:
-  linkedin:  https://uk.linkedin.com/in/jetpax
+  linkedin:
   www: http://airvox.it
 - name: Suzann Matin
   img: member-5.png
   institution:
-  linkedin:  https://uk.linkedin.com/in/jetpax
+  linkedin:
   www: http://airvox.it
