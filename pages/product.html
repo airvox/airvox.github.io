@@ -14,9 +14,16 @@ permalink: /product/
 
 
             <div class="about">
-                <p>We specialise in designing and deploying secure, efficient network infrastructure which you, and your customers, can rely on.
-                  &nbsp; And we carefully choose from leading technology brands to maximize the reurn on your investment.</p>
-                </div><!--//about-->
+
+
+
+              <p>We specialise in designing and deploying secure, efficient network infrastructure which you, and your customers, can rely on.
+                  &nbsp; And we carefully choose from leading technology brands to maximize the return on your investment.</p>
+
+              <p>Broadly speaking, our offerings are focussed in the following five areas:</p><br>
+
+
+
 
                 <ul class="custom-bullet">
                     <li><b>Reliable Broadband</b> &nbsp; A fast dependable connection to the web is the most important part of any modern IT system.
@@ -24,10 +31,10 @@ permalink: /product/
                       We have the specialist knowledge to get you online and keep you there with 99.9% uptime; even if someone digs up your internet line with a back-hoe!
                     </li><br>
                     <li><b>Managed Wifi</b> &nbsp; Your business, and your customers, need reliable, ubiquitous wifi to get information on the move. We can design,
-                      supply and maintain a manageable network of cost-effective access points, to give you seamless wifi coverage across your whole site,
+                      supply and maintain a scalable network of cost-effective access points, to give you seamless wifi coverage across your whole site,
                       no matter how large!</li><br>
                     <li><b>Expandable Telephony</b> &nbsp; With resilient internet connectivity in place, you can switch from traditional PBX telephony to Voice Over IP,
-                      cutting cost, and increasing flexibiility, while maintaining or improving existing call quality.</li><br>
+                      cutting cost, and increasing flexibility, while maintaining or improving existing call quality.</li><br>
                     <li><b>Server Virtualization</b> &nbsp; More and more of your business services run from the cloud; but you still need bullet-proof onsite servers that are backed up and easily maintained in case of breakdown.
                       We use the latest server virtualization techniques to create robust and failsafe server infrastructure on your premises.
                       And you can reduce your carbon footprint and power bills in the process!</li><br>
@@ -38,6 +45,11 @@ permalink: /product/
                       and we use the largest and most dependable networks in the world to make sure your customers get the message.</li>
 
                 </ul>
+
+
+
+
+
 
 
 
@@ -63,7 +75,36 @@ permalink: /product/
                     </div><!--//member-inner-->
                 </div><!--//member-->
                 {% endfor %}
+
+
+
             </div><!--//team-->
         </div><!--//story-container-->
     </div><!--//container-->
 </section><!--//story-video-->
+
+
+<div class="sections-wrapper">
+    <!-- ******CTA Section****** -->
+    <section id="cta-section" class="section cta-section text-center home-cta-section">
+        <div class="container">
+           <h2 class="title">Ready to supercharge your IT?</h2>
+           <div class="form-container">
+               <form class="signup-form navbar-form" action="https://formspree.io/enquiries@airvox.it" method="post">
+                   <div class="form-group">
+                     <ul class=" list-inline">
+                         <li>
+                           <input style="font-size:20px" name="email" type="email"  class="form-control" placeholder="Enter email address">
+                           <input type="hidden" name="_next" value="{{site.baseurl}}/" />
+                           <input type="hidden" name="_subject" value="Supercharge my IT" />
+                          </li>
+                         <li>
+                           <button type="submit" class="btn btn-cta btn-cta-primary">Contact Airvox Now</button>
+                         </li>
+                     </ul>
+                   </div>
+               </form>
+           </div><!--//subscription-form-->
+        </div><!--//container-->
+    </section><!--//cta-section-->
+</div><!--//section-wrapper-->

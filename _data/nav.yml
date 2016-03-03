@@ -3,7 +3,7 @@
   href: "/about/"
   subcategories:
       - subtitle: "Who we are"
-        subhref: "/about/who"
+        subhref: "/about/who/"
       - subtitle: "Press"
         subhref: "/about/who"
       - subtitle: "Jobs"
@@ -17,6 +17,8 @@
     - subtitle: "Managed Wifi"
       subhref: "/product/"
     - subtitle: "Expandable Telephony"
+      subhref: "/product/"
+    - subtitle: "Server Virtualization"
       subhref: "/product/"
     - subtitle: "Static Website Design"
       subhref: "/product/"
